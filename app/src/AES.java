@@ -1,5 +1,14 @@
 import java.util.*;
 
+/** 
+  * This class represents AES encryption and decryption
+  * with 128-bit key
+  *
+  * @author Bardan Putra Prananto
+  * @author Syukri Mullia Adil Perkasa
+  * @version 24.04.2016
+  */
+
 public class AES {
 	
 	// state dan key, dalam 16 byte hexadecimal
@@ -79,48 +88,48 @@ public class AES {
 	}
 
 	public void encrypt() {
-		System.out.println("\nMode: ENCRYPTION");
-		System.out.println("plaintext: " + getCurrentState());
-		System.out.println("key: 	   " + getKey(0));
-		System.out.println("\nStarting encryption...");
+		//System.out.println("\nMode: ENCRYPTION");
+		//System.out.println("plaintext: " + getCurrentState());
+		//System.out.println("key: 	   " + getKey(0));
+		//System.out.println("\nStarting encryption...");
 
 		int round = 0;
 		MODE_ENCRYPT = true;
 		addRoundKey(round);
-		System.out.println("Initial state after first add round key:" + getCurrentState());
+		//System.out.println("Initial state after first add round key:" + getCurrentState());
 		// expandKey(9);
 		while (round < 10) {
 			round++;
-			System.out.println("\nRound " + round);
-			System.out.println("  [Step 0] State before substitute bytes:" + getCurrentState());
+			//System.out.println("\nRound " + round);
+			//System.out.println("  [Step 0] State before substitute bytes:" + getCurrentState());
 
 			substituteBytes();
-			System.out.println("  [Step 1] state after substitute bytes:" + getCurrentState());
+			//System.out.println("  [Step 1] state after substitute bytes:" + getCurrentState());
 
 			shiftRows();
-			System.out.println("  [Step 2] state after shift rows:" + getCurrentState());
+			//System.out.println("  [Step 2] state after shift rows:" + getCurrentState());
 
 			if (round != 10) {
 				mixColumns();
-				System.out.println("  [Step 3] state after mix columns:" + getCurrentState());
+				//System.out.println("  [Step 3] state after mix columns:" + getCurrentState());
 			}
 			expandKey(round);
-			System.out.println("  key after expansion:" + getKey(round));
+			//System.out.println("  key after expansion:" + getKey(round));
 
 			addRoundKey(round);
-			System.out.println("  [Step 4] state after add round key:" + getCurrentState());
+			//System.out.println("  [Step 4] state after add round key:" + getCurrentState());
 		}
 
-		System.out.println("\nCiphertext: " + getCurrentState());
+		//System.out.println("\nCiphertext: " + getCurrentState());
 		MODE_ENCRYPT = false;
 		ENCRYPTED = true;
 	}
 
 	public void decrypt() {
-		System.out.println("\nMode: DECRYPTION");
-		System.out.println("ciphertext: " + getCurrentState());
-		System.out.println("key: 	   " + getKey(0));
-		System.out.println("\nStarting decryption...");
+		//System.out.println("\nMode: DECRYPTION");
+		//System.out.println("ciphertext: " + getCurrentState());
+		//System.out.println("key: 	   " + getKey(0));
+		//System.out.println("\nStarting decryption...");
 
 		int round = 0;
 		MODE_DECRYPT = true;
@@ -135,28 +144,28 @@ public class AES {
 		}
 
 		addRoundKey(round);
-		System.out.println("Initial state after first add round key:" + getCurrentState());
+		//System.out.println("Initial state after first add round key:" + getCurrentState());
 
 		while (round > 0) {
 			round--;
-			System.out.println("\nRound " + (10 - round));
-			System.out.println("  [Step 0] State before shift rows:" + getCurrentState());
+			//System.out.println("\nRound " + (10 - round));
+			//System.out.println("  [Step 0] State before shift rows:" + getCurrentState());
 
 			shiftRows();
-			System.out.println("  [Step 1] state after shift rows:" + getCurrentState());
+			//System.out.println("  [Step 1] state after shift rows:" + getCurrentState());
 
 			substituteBytes();
-			System.out.println("  [Step 2] state after substitute bytes:" + getCurrentState());
+			//System.out.println("  [Step 2] state after substitute bytes:" + getCurrentState());
 
 			addRoundKey(round);
-			System.out.println("  [Step 3] state after add round key:" + getCurrentState());
+			//System.out.println("  [Step 3] state after add round key:" + getCurrentState());
 
 			if (round != 0) {
 				mixColumns();
-				System.out.println("  [Step 3] state after mix columns:" + getCurrentState());
+				//System.out.println("  [Step 3] state after mix columns:" + getCurrentState());
 			}
 		}
-		System.out.println("\nPlaintext: " + getCurrentState());
+		//System.out.println("\nPlaintext: " + getCurrentState());
 		MODE_DECRYPT = false;
 	}
 

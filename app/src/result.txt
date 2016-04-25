@@ -1,0 +1,630 @@
+
+Mode: ENCRYPTION
+plaintext: 
+    01 78 1D 36 
+    4B A6 51 43 
+    AF 9D 80 E9 
+    22 33 10 9A 
+key: 	   
+    E8 ED F2 F7 
+    E9 EE F3 F8 
+    EA EF F4 F9 
+    EB F0 F5 FA 
+
+Starting encryption...
+Initial state after first add round key:
+    e9 95 ef c1 
+    a2 48 a2 bb 
+    45 72 74 10 
+    c9 c3 e5 60 
+
+Round 1
+  [Step 0] State before substitute bytes:
+    e9 95 ef c1 
+    a2 48 a2 bb 
+    45 72 74 10 
+    c9 c3 e5 60 
+  [Step 1] state after substitute bytes:
+    1e 2a df 78 
+    3a 52 3a ea 
+    6e 40 92 ca 
+    dd 2e d9 d0 
+  [Step 2] state after shift rows:
+    1e 2a df 78 
+    52 3a ea 3a 
+    92 ca 6e 40 
+    d0 dd 2e d9 
+  [Step 3] state after mix columns:
+    88 0d c0 27 
+    c7 c6 8c 15 
+    18 e3 9b b2 
+    59 2f a2 5b 
+  key after expansion:
+    a8 45 b7 40 
+    70 9e 6d 95 
+    c7 28 dc 25 
+    83 73 86 7c 
+  [Step 4] state after add round key:
+    20 48 77 67 
+    b7 58 e1 80 
+    df cb 47 97 
+    da 5c 24 27 
+
+Round 2
+  [Step 0] State before substitute bytes:
+    20 48 77 67 
+    b7 58 e1 80 
+    df cb 47 97 
+    da 5c 24 27 
+  [Step 1] state after substitute bytes:
+    b7 52 f5 85 
+    a9 6a f8 cd 
+    9e 1f a0 88 
+    57 4a 36 cc 
+  [Step 2] state after shift rows:
+    b7 52 f5 85 
+    6a f8 cd a9 
+    a0 88 9e 1f 
+    cc 57 4a 36 
+  [Step 3] state after mix columns:
+    a7 68 69 d8 
+    54 6d 87 db 
+    c9 58 c1 48 
+    8b 28 c3 4e 
+  key after expansion:
+    80 c5 72 32 
+    4f d1 bc 29 
+    d7 ff 23 06 
+    8a f9 7f 03 
+  [Step 4] state after add round key:
+    27 ad 1b ea 
+    1b bc 3b f2 
+    1e a7 e2 4e 
+    01 d1 bc 4d 
+
+Round 3
+  [Step 0] State before substitute bytes:
+    27 ad 1b ea 
+    1b bc 3b f2 
+    1e a7 e2 4e 
+    01 d1 bc 4d 
+  [Step 1] state after substitute bytes:
+    cc 95 af 87 
+    af 65 e2 89 
+    72 5c 98 2f 
+    7c 3e 65 e3 
+  [Step 2] state after shift rows:
+    cc 95 af 87 
+    65 e2 89 af 
+    98 2f 72 5c 
+    e3 7c 3e 65 
+  [Step 3] state after mix columns:
+    57 5f 89 c6 
+    56 47 0e 43 
+    bc ad 80 3f 
+    6f 91 6d ab 
+  key after expansion:
+    21 e4 96 a4 
+    20 f1 4d 64 
+    ac 53 70 76 
+    a9 50 2f 2c 
+  [Step 4] state after add round key:
+    76 bb 1f 62 
+    76 b6 43 27 
+    10 fe f0 49 
+    c6 c1 42 87 
+
+Round 4
+  [Step 0] State before substitute bytes:
+    76 bb 1f 62 
+    76 b6 43 27 
+    10 fe f0 49 
+    c6 c1 42 87 
+  [Step 1] state after substitute bytes:
+    38 ea c0 aa 
+    38 4e 1a cc 
+    ca bb 8c 3b 
+    b4 78 2c 17 
+  [Step 2] state after shift rows:
+    38 ea c0 aa 
+    4e 1a cc 38 
+    8c 3b ca bb 
+    17 b4 78 2c 
+  [Step 3] state after mix columns:
+    39 6e 66 90 
+    3c 27 7e 20 
+    4c 41 0b 8b 
+    a4 77 ad 3e 
+  key after expansion:
+    6a 8e 18 bc 
+    18 e9 a4 c0 
+    dd 8e fe 88 
+    e0 b0 9f b3 
+  [Step 4] state after add round key:
+    53 e0 7e 2c 
+    24 ce da e0 
+    91 cf f5 03 
+    44 c7 32 8d 
+
+Round 5
+  [Step 0] State before substitute bytes:
+    53 e0 7e 2c 
+    24 ce da e0 
+    91 cf f5 03 
+    44 c7 32 8d 
+  [Step 1] state after substitute bytes:
+    ed e1 f3 71 
+    36 8b 57 e1 
+    81 8a e6 7b 
+    1b c6 23 5d 
+  [Step 2] state after shift rows:
+    ed e1 f3 71 
+    8b 57 e1 36 
+    e6 7b 81 8a 
+    5d 1b c6 23 
+  [Step 3] state after mix columns:
+    fc 40 82 11 
+    8c d9 74 bb 
+    56 6d 5a 2d 
+    fb 22 f9 69 
+  key after expansion:
+    c0 4e 56 ea 
+    dc 35 91 51 
+    b0 3e c0 48 
+    85 35 aa 19 
+  [Step 4] state after add round key:
+    3c 0e d4 fb 
+    50 ec e5 ea 
+    e6 53 9a 65 
+    7e 17 53 70 
+
+Round 6
+  [Step 0] State before substitute bytes:
+    3c 0e d4 fb 
+    50 ec e5 ea 
+    e6 53 9a 65 
+    7e 17 53 70 
+  [Step 1] state after substitute bytes:
+    eb ab 48 0f 
+    53 ce d9 87 
+    8e ed b8 4d 
+    f3 f0 ed 51 
+  [Step 2] state after shift rows:
+    eb ab 48 0f 
+    ce d9 87 53 
+    b8 4d 8e ed 
+    51 f3 f0 ed 
+  [Step 3] state after mix columns:
+    6d 83 7c eb 
+    ee 26 24 68 
+    bd e6 c3 b1 
+    f2 8f 2a 6e 
+  key after expansion:
+    31 7f 29 c3 
+    8e bb 2a 7b 
+    64 5a 9a d2 
+    02 37 9d 84 
+  [Step 4] state after add round key:
+    5c fc 55 28 
+    60 9d 0e 13 
+    d9 bc 59 63 
+    f0 b8 b7 ea 
+
+Round 7
+  [Step 0] State before substitute bytes:
+    5c fc 55 28 
+    60 9d 0e 13 
+    d9 bc 59 63 
+    f0 b8 b7 ea 
+  [Step 1] state after substitute bytes:
+    4a b0 fc 34 
+    d0 5e ab 7d 
+    35 65 cb fb 
+    8c 6c a9 87 
+  [Step 2] state after shift rows:
+    4a b0 fc 34 
+    5e ab 7d d0 
+    cb fb 35 65 
+    87 8c 6c a9 
+  [Step 3] state after mix columns:
+    3a ea 3d cf 
+    37 67 35 89 
+    0b 79 5f ce 
+    5e 98 8f a0 
+  key after expansion:
+    50 2f 06 c5 
+    3b 80 aa d1 
+    3b 61 fb 29 
+    2c 1b 86 02 
+  [Step 4] state after add round key:
+    6a c5 3b 0a 
+    0c e7 9f 58 
+    30 18 a4 e7 
+    72 83 09 a2 
+
+Round 8
+  [Step 0] State before substitute bytes:
+    6a c5 3b 0a 
+    0c e7 9f 58 
+    30 18 a4 e7 
+    72 83 09 a2 
+  [Step 1] state after substitute bytes:
+    02 a6 e2 67 
+    fe 94 db 6a 
+    04 ad 49 94 
+    40 ec 01 3a 
+  [Step 2] state after shift rows:
+    02 a6 e2 67 
+    94 db 6a fe 
+    49 94 04 ad 
+    3a 40 ec 01 
+  [Step 3] state after mix columns:
+    d0 f5 89 7b 
+    d0 ec d6 6d 
+    4a 8e af db 
+    af 3e 90 f8 
+  key after expansion:
+    ee c1 c7 02 
+    9e 1e b4 65 
+    4c 2d d6 ff 
+    8a 91 17 15 
+  [Step 4] state after add round key:
+    3e 34 4e 79 
+    4e f2 62 08 
+    06 a3 79 24 
+    25 af 87 ed 
+
+Round 9
+  [Step 0] State before substitute bytes:
+    3e 34 4e 79 
+    4e f2 62 08 
+    06 a3 79 24 
+    25 af 87 ed 
+  [Step 1] state after substitute bytes:
+    b2 18 2f b6 
+    2f 89 aa 30 
+    6f 0a b6 36 
+    3f 79 17 55 
+  [Step 2] state after shift rows:
+    b2 18 2f b6 
+    89 aa 30 2f 
+    b6 36 6f 0a 
+    55 3f 79 17 
+  [Step 3] state after mix columns:
+    1c dc 18 1b 
+    2f 32 87 e1 
+    b3 9f 4a b4 
+    58 ca dc ca 
+  key after expansion:
+    b8 79 be bc 
+    88 96 22 47 
+    15 38 ee 11 
+    fd 6c 7b 6e 
+  [Step 4] state after add round key:
+    a4 a5 a6 a7 
+    a7 a4 a5 a6 
+    a6 a7 a4 a5 
+    a5 a6 a7 a4 
+
+Round 10
+  [Step 0] State before substitute bytes:
+    a4 a5 a6 a7 
+    a7 a4 a5 a6 
+    a6 a7 a4 a5 
+    a5 a6 a7 a4 
+  [Step 1] state after substitute bytes:
+    49 06 24 5c 
+    5c 49 06 24 
+    24 5c 49 06 
+    06 24 5c 49 
+  [Step 2] state after shift rows:
+    49 06 24 5c 
+    49 06 24 5c 
+    49 06 24 5c 
+    49 06 24 5c 
+  key after expansion:
+    2e 57 e9 55 
+    0a 9c be f9 
+    8a b2 5c 4d 
+    98 f4 8f e1 
+  [Step 4] state after add round key:
+    67 51 cd 09 
+    43 9a 9a a5 
+    c3 b4 78 11 
+    d1 f2 ab bd 
+
+Ciphertext: 
+    67 51 cd 09 
+    43 9a 9a a5 
+    c3 b4 78 11 
+    d1 f2 ab bd 
+
+Mode: DECRYPTION
+ciphertext: 
+    67 51 cd 09 
+    43 9a 9a a5 
+    c3 b4 78 11 
+    d1 f2 ab bd 
+key: 	   
+    E8 ED F2 F7 
+    E9 EE F3 F8 
+    EA EF F4 F9 
+    EB F0 F5 FA 
+
+Starting decryption...
+Initial state after first add round key:
+    49 06 24 5c 
+    49 06 24 5c 
+    49 06 24 5c 
+    49 06 24 5c 
+
+Round 1
+  [Step 0] State before shift rows:
+    49 06 24 5c 
+    49 06 24 5c 
+    49 06 24 5c 
+    49 06 24 5c 
+  [Step 1] state after shift rows:
+    49 06 24 5c 
+    5c 49 06 24 
+    24 5c 49 06 
+    06 24 5c 49 
+  [Step 2] state after substitute bytes:
+    a4 a5 a6 a7 
+    a7 a4 a5 a6 
+    a6 a7 a4 a5 
+    a5 a6 a7 a4 
+  [Step 3] state after add round key:
+    1c dc 18 1b 
+    2f 32 87 e1 
+    b3 9f 4a b4 
+    58 ca dc ca 
+  [Step 3] state after mix columns:
+    b2 18 2f b6 
+    89 aa 30 2f 
+    b6 36 6f 0a 
+    55 3f 79 17 
+
+Round 2
+  [Step 0] State before shift rows:
+    b2 18 2f b6 
+    89 aa 30 2f 
+    b6 36 6f 0a 
+    55 3f 79 17 
+  [Step 1] state after shift rows:
+    b2 18 2f b6 
+    2f 89 aa 30 
+    6f 0a b6 36 
+    3f 79 17 55 
+  [Step 2] state after substitute bytes:
+    3e 34 4e 79 
+    4e f2 62 08 
+    06 a3 79 24 
+    25 af 87 ed 
+  [Step 3] state after add round key:
+    d0 f5 89 7b 
+    d0 ec d6 6d 
+    4a 8e af db 
+    af 3e 90 f8 
+  [Step 3] state after mix columns:
+    02 a6 e2 67 
+    94 db 6a fe 
+    49 94 04 ad 
+    3a 40 ec 01 
+
+Round 3
+  [Step 0] State before shift rows:
+    02 a6 e2 67 
+    94 db 6a fe 
+    49 94 04 ad 
+    3a 40 ec 01 
+  [Step 1] state after shift rows:
+    02 a6 e2 67 
+    fe 94 db 6a 
+    04 ad 49 94 
+    40 ec 01 3a 
+  [Step 2] state after substitute bytes:
+    6a c5 3b 0a 
+    0c e7 9f 58 
+    30 18 a4 e7 
+    72 83 09 a2 
+  [Step 3] state after add round key:
+    3a ea 3d cf 
+    37 67 35 89 
+    0b 79 5f ce 
+    5e 98 8f a0 
+  [Step 3] state after mix columns:
+    4a b0 fc 34 
+    5e ab 7d d0 
+    cb fb 35 65 
+    87 8c 6c a9 
+
+Round 4
+  [Step 0] State before shift rows:
+    4a b0 fc 34 
+    5e ab 7d d0 
+    cb fb 35 65 
+    87 8c 6c a9 
+  [Step 1] state after shift rows:
+    4a b0 fc 34 
+    d0 5e ab 7d 
+    35 65 cb fb 
+    8c 6c a9 87 
+  [Step 2] state after substitute bytes:
+    5c fc 55 28 
+    60 9d 0e 13 
+    d9 bc 59 63 
+    f0 b8 b7 ea 
+  [Step 3] state after add round key:
+    6d 83 7c eb 
+    ee 26 24 68 
+    bd e6 c3 b1 
+    f2 8f 2a 6e 
+  [Step 3] state after mix columns:
+    eb ab 48 0f 
+    ce d9 87 53 
+    b8 4d 8e ed 
+    51 f3 f0 ed 
+
+Round 5
+  [Step 0] State before shift rows:
+    eb ab 48 0f 
+    ce d9 87 53 
+    b8 4d 8e ed 
+    51 f3 f0 ed 
+  [Step 1] state after shift rows:
+    eb ab 48 0f 
+    53 ce d9 87 
+    8e ed b8 4d 
+    f3 f0 ed 51 
+  [Step 2] state after substitute bytes:
+    3c 0e d4 fb 
+    50 ec e5 ea 
+    e6 53 9a 65 
+    7e 17 53 70 
+  [Step 3] state after add round key:
+    fc 40 82 11 
+    8c d9 74 bb 
+    56 6d 5a 2d 
+    fb 22 f9 69 
+  [Step 3] state after mix columns:
+    ed e1 f3 71 
+    8b 57 e1 36 
+    e6 7b 81 8a 
+    5d 1b c6 23 
+
+Round 6
+  [Step 0] State before shift rows:
+    ed e1 f3 71 
+    8b 57 e1 36 
+    e6 7b 81 8a 
+    5d 1b c6 23 
+  [Step 1] state after shift rows:
+    ed e1 f3 71 
+    36 8b 57 e1 
+    81 8a e6 7b 
+    1b c6 23 5d 
+  [Step 2] state after substitute bytes:
+    53 e0 7e 2c 
+    24 ce da e0 
+    91 cf f5 03 
+    44 c7 32 8d 
+  [Step 3] state after add round key:
+    39 6e 66 90 
+    3c 27 7e 20 
+    4c 41 0b 8b 
+    a4 77 ad 3e 
+  [Step 3] state after mix columns:
+    38 ea c0 aa 
+    4e 1a cc 38 
+    8c 3b ca bb 
+    17 b4 78 2c 
+
+Round 7
+  [Step 0] State before shift rows:
+    38 ea c0 aa 
+    4e 1a cc 38 
+    8c 3b ca bb 
+    17 b4 78 2c 
+  [Step 1] state after shift rows:
+    38 ea c0 aa 
+    38 4e 1a cc 
+    ca bb 8c 3b 
+    b4 78 2c 17 
+  [Step 2] state after substitute bytes:
+    76 bb 1f 62 
+    76 b6 43 27 
+    10 fe f0 49 
+    c6 c1 42 87 
+  [Step 3] state after add round key:
+    57 5f 89 c6 
+    56 47 0e 43 
+    bc ad 80 3f 
+    6f 91 6d ab 
+  [Step 3] state after mix columns:
+    cc 95 af 87 
+    65 e2 89 af 
+    98 2f 72 5c 
+    e3 7c 3e 65 
+
+Round 8
+  [Step 0] State before shift rows:
+    cc 95 af 87 
+    65 e2 89 af 
+    98 2f 72 5c 
+    e3 7c 3e 65 
+  [Step 1] state after shift rows:
+    cc 95 af 87 
+    af 65 e2 89 
+    72 5c 98 2f 
+    7c 3e 65 e3 
+  [Step 2] state after substitute bytes:
+    27 ad 1b ea 
+    1b bc 3b f2 
+    1e a7 e2 4e 
+    01 d1 bc 4d 
+  [Step 3] state after add round key:
+    a7 68 69 d8 
+    54 6d 87 db 
+    c9 58 c1 48 
+    8b 28 c3 4e 
+  [Step 3] state after mix columns:
+    b7 52 f5 85 
+    6a f8 cd a9 
+    a0 88 9e 1f 
+    cc 57 4a 36 
+
+Round 9
+  [Step 0] State before shift rows:
+    b7 52 f5 85 
+    6a f8 cd a9 
+    a0 88 9e 1f 
+    cc 57 4a 36 
+  [Step 1] state after shift rows:
+    b7 52 f5 85 
+    a9 6a f8 cd 
+    9e 1f a0 88 
+    57 4a 36 cc 
+  [Step 2] state after substitute bytes:
+    20 48 77 67 
+    b7 58 e1 80 
+    df cb 47 97 
+    da 5c 24 27 
+  [Step 3] state after add round key:
+    88 0d c0 27 
+    c7 c6 8c 15 
+    18 e3 9b b2 
+    59 2f a2 5b 
+  [Step 3] state after mix columns:
+    1e 2a df 78 
+    52 3a ea 3a 
+    92 ca 6e 40 
+    d0 dd 2e d9 
+
+Round 10
+  [Step 0] State before shift rows:
+    1e 2a df 78 
+    52 3a ea 3a 
+    92 ca 6e 40 
+    d0 dd 2e d9 
+  [Step 1] state after shift rows:
+    1e 2a df 78 
+    3a 52 3a ea 
+    6e 40 92 ca 
+    dd 2e d9 d0 
+  [Step 2] state after substitute bytes:
+    e9 95 ef c1 
+    a2 48 a2 bb 
+    45 72 74 10 
+    c9 c3 e5 60 
+  [Step 3] state after add round key:
+    01 78 1d 36 
+    4b a6 51 43 
+    af 9d 80 e9 
+    22 33 10 9a 
+
+Plaintext: 
+    01 78 1d 36 
+    4b a6 51 43 
+    af 9d 80 e9 
+    22 33 10 9a 
